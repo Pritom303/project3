@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ADDING NEW STUFF</title>
+		<!-- google fonts  -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- bootstrap css  -->
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<!-- custom style css  -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<!-- navigation button area  -->
+		<div class="navigation-button-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="filter-options">
+							<div class="objectivesSwitcher">
+								<div class="filter Strategy">
+									<div class="label">Strategy:</div>
+									<label class="value conservative-btn"
+										><input
+											type="radio"
+											name="risk2"
+											value="1"
+											id="checkbox1"
+											checked="checked"
+										/><span>Conservative</span></label
+									>
+									<label class="value aggressive-btn"
+										><input
+											type="radio"
+											name="risk2"
+											value="2"
+											class="checkbox1"
+											id="checkbox2"
+										/><span>Aggressive</span></label
+									>
+								</div>
+								<div class="filter currency">
+									<div class="label">Currency:</div>
+									<label class="value"
+										><input
+											type="radio"
+											name="currency2"
+											value="2"
+											checked="checked2"
+											id="usd"
+										/><span>USD </span></label
+									>
+									<label class="value"
+										><input
+											type="radio"
+											name="currency2"
+											value="3"
+											id="gbp"
+										/><span>GBP</span></label
+									>
+									<label class="value"
+										><input
+											type="radio"
+											name="currency2"
+											value="4"
+											id='eur'
+										/><span>EUR</span></label
+									>
+									<label class="value"
+										><input
+											type="radio"
+											name="currency2"
+											value="1"
+											id="aud"
+										/><span>AUD</span></label
+									>
+								</div>
+
+								<div class="filter capital">
+									<div class="label">Capital:</div>
+									<label class="value"
+										><input
+											type="radio"
+											name="capital2"
+											value="1"
+											checked="checked"
+										    id="c1"
+										/><span>$15,000 </span>
+									</label>
+									<label class="value"
+										><input
+											type="radio"
+											name="capital2"
+											value="2"
+											id="c2"
+										/><span>$30,000</span>
+									</label>
+									<label class="value"
+										><input
+											type="radio"
+											name="capital2"
+											value="3"
+											id="c3"
+										/><span>$50,000</span></label
+									>
+									<label class="value"
+										><input
+											type="radio"
+											name="capital2"
+											value="4"
+											id="c4"
+										/><span>$100,000</span></label
+									>
+								</div>
+								<div class="tabToggle">Overview/Comparison</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row"  id="conservative">
+					<div class="col-md-12">
+						<div class="data-table-area table-responsive">
+							<table>
+								<thead>
+									<tr>
+										<th scope="col"></th>
+										<th scope="col " class="text-center">
+											<span>STEP 1</span> <br />
+											DT4X CHALLENGE
+										</th>
+										<th scope="col" class="text-center">
+											<span>STEP 2</span> <br />
+											VERIFICATION
+										</th>
+										<th scope="col" class="text-center">
+											<span>STEP 3</span> <br />
+											DT4X TRADER
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="noBorder">
+										<td><b>Trading Term</b></td>
+										<td>30 days</td>
+										<td>60 days</td>
+										<td>indefinite</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Minimum Trading Days</b></td>
+										<td>15 days</td>
+										<td>15 days</td>
+										<td>15 days</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Maximum Daily Loss</b></td>
+										<td class="money">500</td>
+										<td class="money">500</td>
+										<td class="money">500</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Maximum Loss</b></td>
+										<td class="money">1000</td>
+										<td class="money">1000</td>
+										<td class="money">1000</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Profit Target</b></td>
+										<td class="money">1000</td>
+										<td >
+											<span class="money">1000</span>
+											<span class="money"
+												style="
+													color: green;
+													font-weight: bold;
+												"
+												>500</span
+											>
+										</td>
+										<td>x</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Leverage</b></td>
+										<td>1:100</td>
+										<td>1:100</td>
+										<td>1:100</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row" id="aggressive">
+					<div class="col-md-12">
+						<div class="data-table-area table-responsive">
+							<table>
+								<thead>
+									<tr>
+										<th scope="col"></th>
+										<th scope="col " class="text-center">
+											<span>STEP 1</span> <br />
+											DT4X CHALLENGE
+										</th>
+										<th scope="col" class="text-center">
+											<span>STEP 2</span> <br />
+											VERIFICATION
+										</th>
+										<th scope="col" class="text-center">
+											<span>STEP 3</span> <br />
+											DT4X TRADER
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="noBorder">
+										<td><b>Trading Term</b></td>
+										<td>30 days</td>
+										<td>60 days</td>
+										<td>indefinite</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Minimum Trading Days</b></td>
+										<td>15 days</td>
+										<td>15 days</td>
+										<td>15 days</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Maximum Daily Loss</b></td>
+										<td class="money">500</td>
+										<td class="money">500</td>
+										<td class="money">500</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Maximum Loss</b></td>
+										<td class="money">2000</td>
+										<td class="money">2000</td>
+										<td class="money">2000</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Profit Target</b></td>
+										<td class="money">1000</td>
+										<td>
+											<span  class="money">2000</span>
+											<span  class="money"
+												style="
+													color: green;
+													font-weight: bold;
+												"
+												>1000</span
+											>
+										</td>
+										<td>x</td>
+									</tr>
+									<tr class="noBorder">
+										<td><b>Leverage</b></td>
+										<td>1:100</td>
+										<td>1:100</td>
+										<td>1:100</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery plugin -->
+		<script src="./assets/js/jquery-3.5.1.min.js"></script>
+		<!-- bootstrap js  -->
+		<script src="./assets/js/bootstrap.min.js"></script>
+		<script src="../script.js"></script>
+		<script>
+			$(".tabToggle").click(function () {
+				$(this).toggleClass("bg");
+			});
+		</script>
+	</body>
+</html>
